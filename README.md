@@ -1,5 +1,5 @@
 # Banking_Customer_Churn
-This is a personal project to enhance my technical skills in data analysis, and also to sharpen my business acumen in financial sector. This porject was conducted individually, from data cleaning and dashboard building. 
+This is a personal project to enhance my technical skills in data analysis, and also to sharpen my business acumen in financial sector. This project was conducted individually, from data cleaning and dashboard building. 
 
 ## 📊 Project Overview
 
