@@ -1,4 +1,5 @@
 # Banking_Customer_Churn
+This is a personal project to enhance my technical skills in data analysis, and also to sharpen my business acumen in financial sector. This porject was conducted individually, from data cleaning and dashboard building. 
 
 ## 📊 Project Overview
 
@@ -30,7 +31,7 @@ This project focuses on analyzing customer churn for a retail banking institutio
 ### 1. Churn rate by Salary range and Account Balance
 * Across all salary ranges, high balance customers consistently show higher churn rates than those with normal balances.
 * The highest churn (25.6%) occurs among high balance customers earning $51K–$100K, a financially literate group likely to compare banks for better services and returns.
-* This is concerning, as high balance customers are typically more profitable and present opportunities for premium and personalized offerings. Losing them represents a significant revenue loss.
+* This poses a risk to the bank’s revenue and customer base, as high balance customers are typically more profitable and present opportunities for premium and personalized offerings. Losing them represents a significant revenue loss.
 #### Country-level Insight: Spain
 * Among surveyed countries, female customers in Spain show the highest churn rate within this segment, at 32%.
 * Potential factors include cultural mismatches, strong local competition, and high financial literacy, making these customers more selective and value-driven.
@@ -40,7 +41,7 @@ This project focuses on analyzing customer churn for a retail banking institutio
 * Implement exit surveys to uncover key drivers behind churn.
 ### 2. Churn rate by Product Holding
 * Customers holding 2 products recorded the lowest churn rate, while those with 4 products showed the highest.
-* Holding 4 products may feel overwhelming, especially if the products are poorly integrated or not aligned with customer needs.
+* Holding 4 products may create complexity or dissatisfaction if not integrated effectively.
 * Higher service fees, lack of personalization, and unmet expectations (e.g., no added rewards despite multiple products) may contribute to dissatisfaction.
 * In contrast, 2-product customers likely made intentional choices, leading to stronger engagement without the burden of complexity.
 * This “sweet spot” offers enough value to encourage loyalty without overwhelming the customer.
