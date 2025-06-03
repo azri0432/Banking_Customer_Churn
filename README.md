@@ -49,11 +49,32 @@ This project focuses on analyzing customer churn for a retail banking institutio
 * Evaluate customers’ financial health and satisfaction, factoring in income, obligations, and feedback.
 * Review product bundling and sales practices to ensure customers adopt products intentionally, not under pressure.
 * Assess product quality and integration, focusing on how well they improve customer convenience and experience.
-### 3. Churn rate by age and salary range
+### 3. Churn rate by tenure and salary range
+* Overall, customers with longer tenure at the bank tend to show the highest churn rates across most salary ranges — except for those earning between 151K and 200K.
+* This trend may reflect dissatisfaction with the bank’s loyalty programs. Long-term customers might feel that their loyalty is not being rewarded adequately and seek better benefits elsewhere.
+* Interestingly, within the 151K–200K salary group, the highest churn rate is observed among customers who have been with the bank for only 0–4 years.
+* This group likely consists of financially savvy individuals with high expectations. They may quickly identify a lack of value and choose to leave the bank early if their expectations are unmet.
+#### Recommendations
+* Enhance loyalty programmes for long-term customers, such as tiered loyalty program according to their tenure such as fee waivers for services for customers that are 5 years old in the bank, to ensure the customers feel appreciated and the services are worth the loyalty.
+* Revamp onboarding for high-income customers by creating a premium onboarding experience with concierge-like support, hence creating a lasting first-impression to these segment of customers.
+* Monitor and benchmark competitors rate and services.
+### 4. Anomaly in churn rate by credit score
+* Customers without credit card yet with a high credit score recorded the highest churn rate.
+* This segment of customer are credit-worthy and likely be financially responsible, making them attractive to other banks.
+* It is possible that the current credit card services provided by the bank are not appealing to this segment, and prefers other banks with credit card services more tailored to their needs and credit-worthiness such as higher cashback and travel rewards.
+* Even if good packages exists, salesperson may not be communicating clearly on the perks and benefits of the package to this segment, making poor marketing and communication a possible explanation for this anomaly.
+#### Recommendations
+* Always gather for customer feedback either when they are still subscribed to the service, or exit survey when they choose to opt out from the service.
+* Improve communication and marketing skills among salesperson to ensure the information for credit card services are aptly delivered.
+* Introduce tiered-based cards to offer rewards and exclusive privileges for customers according to their spending levels and creditworthiness.
 
 
 ## Future Improvements
-To further generate meaningful insights from this project, I will incorporate Power BI and also Python to integrate machine learning to forecast the churn rate in the future based on current trend. Power BI will be used to enhance data storytelling and visualize data more efficiently. SQL could be used especially with window functions, subqueries and CTEs for a deeper analysis. I will also include customer feedback data and an improved dataset with important dates to accurately derive deeper insights from this project.
+To enhance the depth and scalability of this project:
+* Integrate Power BI for richer storytelling and interactive dashboards.
+* Use Python and machine learning models to predict churn rates based on current trends.
+* Employ SQL with advanced queries (e.g., window functions, subqueries, and CTEs) for deeper analysis.
+* Include customer feedback and add date-based fields (e.g., subscription and churn dates) for improved insight and churn lifecycle modeling.
 
 ## Acknowledgements
 This data is provided by Maven Analytics from their website, and analysis is conducted based on the business questions as a challenge. 
